@@ -1,0 +1,202 @@
+/*Fonts*/
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata&family=Lobster&family=Questrial&family=Secular+One&display=swap");
+
+@font-face {
+  font-family: "HelveticaNow";
+  src: url("../assets/fonts/HelveticaNowDisplayXBlk.otf");
+}
+
+/*Scroll smooth*/
+html{
+  scroll-behavior: smooth;
+  background-color: black;
+}
+
+
+/*NavBar Classes*/
+.navbar-brand {
+  font-size: 150%;
+  font-family: "Questrial", sans-serif;
+}
+.navbar {
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  transition: all 0.4s;
+}
+.navbar-brand img {
+  margin-right: 5%;
+}
+.nav-item {
+  font-size: 150%;
+  font-family: "Questrial", sans-serif;
+}
+/*Nav OtherClass*/
+.navbar {
+  transition: all 0.4s;
+}
+.navbar .nav-link {
+  color: rgb(255, 255, 255);
+}
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+  color: rgb(229, 255, 0);
+  text-decoration: none;
+}
+.navbar-brand {
+  color: rgb(255, 255, 255);
+}
+.navbar-brand:hover {
+  color: rgb(229, 255, 0);
+  text-decoration: none;
+}
+.navDark{
+  background-color:black;
+}
+.collapse .nav-link {
+  color: rgb(255, 255, 255);
+}
+.collapse .nav-link:hover,
+.collapse .nav-link:focus {
+  color: rgb(229, 255, 0);
+  text-decoration: none;
+}
+
+
+
+/*Home Classes*/
+.Home {
+  min-height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("https://gratisography.com/wp-content/uploads/2019/11/gratisography-landscape-laptop-free-stock-photo-1170x780.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+.tittle-home {
+  color: rgb(229, 255, 0);
+  font-family: HelveticaNow;
+  font-size: 300%;
+}
+.lead {
+  font-size: 150%;
+  font-family: "Questrial", sans-serif;
+  color: white;
+  margin-bottom: 0%;
+}
+.jumbotron {
+  margin-bottom: 0%;
+  height: 100%;
+}
+.container-fluid {
+  background-color: black;
+}
+
+/*Sections Classes*/
+.Sections{
+  padding: 5% 20% 0 20%;
+  color: white;
+  background-color: black;
+}
+.tittle-sections {
+  font-family: HelveticaNow;
+  font-size: 300%;
+  margin-bottom: 0;
+}
+
+/*Logo Skills*/
+.skills-logo{
+  font-size: 300%;
+  color: rgb(229, 255, 0);
+}
+
+.underline{
+	width: 150px;
+	border: 3px solid #eee;
+}
+
+/*Services Classses*/
+.OtherBackground{
+  /*background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+  background-size: cover;
+  background-attachment: fixed;*/
+  background-color: rgb(229, 255, 0);
+  color: black;
+  margin-top: 5%;
+  padding: 5% 20% 0 20%;
+}
+
+.col-sm ul{
+  font-size: 150%;
+  font-family: "Questrial", sans-serif;
+  margin-top: 10%;
+}
+
+.col-sm li{
+  margin-bottom: 10%;
+}
+
+.button-Sum {
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 20px;
+  border: none;
+  border-bottom: 4px solid #424242;
+  background: #000000;
+
+  cursor: pointer;
+  font-weight: 400;
+  text-align: center;
+  color: #fff;
+}
+.button-Sum:hover {
+  background: #424242;
+}
+.button-Sum a {
+  width: 100%;
+  text-decoration: none;
+  font-size: 150%;
+  font-family: "Questrial", sans-serif;
+  color: #fff;
+}
+
+/*Cards Classes*/
+.card-group .card{
+  background-color: rgb(8, 8, 8);
+  color: white;
+}
+.card-group a{
+  color: white;
+}
+.card-group a:hover{
+  color: rgb(229, 255, 0);
+}
+
+/*Contact Project*/
+#NewProject{
+  font-family: HelveticaNow;
+  font-size: 200%;
+}
+.ContactButtom{
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 20px;
+  border: none;
+  border-bottom: 4px solid rgb(116, 129, 0);
+  background: rgb(229, 255, 0);
+
+  cursor: pointer;
+  font-weight: 400;
+  text-align: center;
+  color: black;
+}
+.ContactButtom:hover {
+  background: rgb(116, 129, 0);
+}
+.ContactButtom a {
+  width: 100%;
+  text-decoration: none;
+  font-size: 150%;
+  font-family: "Questrial", sans-serif;
+  color: rgb(0, 0, 0);
+}
